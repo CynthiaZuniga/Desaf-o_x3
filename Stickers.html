@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Stickers</title>
+    <link rel="stylesheet" href="./assets/css/stickers.css" />
+  </head>
+  <body>
+    <main class="main-section">
+      
+        <h4>Puedes llevar un máximo de 10 stickers en total</h4>
+      
+      
+      <div class="stickers-container">
+        <div class="Stickers">
+          <img src="./assets/img/space.jpg" alt="espacio" />
+          <input type="number" id="input1" min="0" max="10" />
+        </div>
+
+        <div class="Stickers">
+          <img src="./assets/img/spacecopyc.jpg" alt="espacio" />
+          <input type="number" id="input2" min="0" max="10" />
+        </div>
+
+        <div class="Stickers">
+          <img src="./assets/img/girlpowerc.jpg" alt="espacio" />
+          <input type="number" id="input3" min="0" max="10" />
+        </div>
+      </div>
+      <div class="botones">
+        <p id="Checkear">Llevas 0 Stickers</p>
+        <button id="boton" onclick="revisar()">Checkear</button>
+      </div>
+    </main>
+    <script src="./stickers.js"></script>
+  </body>
+</html>

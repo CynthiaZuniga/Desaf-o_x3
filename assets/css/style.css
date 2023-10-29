@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background-image: url(/assets/img/greenpxfuel.com.jpg);
+    background-size: cover;
+
+}
+
+.aurora-boreal > .image-container{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.aurora-boreal > .image-container > img {
+    
+    max-width: 100%;
+    height: auto;
+    
+
+}
